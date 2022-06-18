@@ -176,8 +176,8 @@ export default class DatabaseAdapter {
 
     /**
      * Count all time intervals of sessions that was going right in and after
-     * provided date and time. 
-     * 
+     * provided date and time.
+     *
      * It uses approach of using `ended_at` rather than `created_at`, because
      * it needs to add sessions that were going _right in the given date too_.
      *
@@ -186,7 +186,7 @@ export default class DatabaseAdapter {
      * get all sessions of this user, starting from 06/22/2022 `6:30`. **This method
      * definetely must include that session that started at `6:15`, because it took
      * place in the chosen date and time.**
-     * 
+     *
      * @param datetime The last date and time from that we need to look for sessions
      * @returns Summarized intervals that were going after provided date and time _(in hours)_
      */

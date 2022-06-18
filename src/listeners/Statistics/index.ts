@@ -10,7 +10,7 @@ type SessionProps = Partial<{ userGettingBackToSession: boolean }>
 
 const log = (...args: any[]) => console.debug('[session]', ...args)
 
-export function startSession(
+export function setDate(
     eventEmitter: EventEmitter,
     db: DatabaseAdapter,
     props?: SessionProps
