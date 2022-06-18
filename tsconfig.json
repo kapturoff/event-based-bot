@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "removeComments": true,
+        "outDir": "dist/",
+        "rootDir": "src/",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es2018",
+        "esModuleInterop": true
+    }
+}
